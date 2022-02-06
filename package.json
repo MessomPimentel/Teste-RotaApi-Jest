@@ -1,0 +1,19 @@
+{
+    "name": "node-tests",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^27.5.0",
+        "nodemon": "^2.0.15",
+        "supertest": "6.2.2"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "yarn": "^1.22.17"
+    }
+}
